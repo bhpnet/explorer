@@ -27,7 +27,7 @@ export default class Proposals extends Component{
     render() {
         return <div>
             <Helmet>
-                <title>Governance Proposals on Cosmos Hub | The Big Dipper</title>
+                <title>Governance Proposals on BHP | BHP Block Explorer</title>
                 <meta name="description" content="Cosmos Hub incorporates on-chain governance. Come to see how on-chain governance can be achieved on The Big Dipper." />
             </Helmet>
             <Row>
