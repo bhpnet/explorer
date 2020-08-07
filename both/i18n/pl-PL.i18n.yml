@@ -24,7 +24,7 @@ common:
     retry: 'Spróbuj ponownie'
     rewards: 'Nagrody'
 navbar:
-    siteName: 'Wielki Wóz'
+    siteName: 'BHP'
     version: 'beta'
     validators: 'Walidatorzy'
     blocks: 'Bloki'

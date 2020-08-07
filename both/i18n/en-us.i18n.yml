@@ -24,7 +24,7 @@ common:
     retry: 'Retry'
     rewards: 'Rewards'
 navbar:
-    siteName: 'The Big Dipper'
+    siteName: 'BHP'
     version: 'beta'
     validators: 'Validators'
     blocks: 'Blocks'
@@ -33,10 +33,10 @@ navbar:
     votingPower: 'Voting Power'
     lang: "ENG"
     english: "English"
-    spanish: "Español"
-    italian: "Italiano"
-    polish: "Polski"
-    russian: "Русский"
+#    spanish: "Español"
+#    italian: "Italiano"
+#    polish: "Polski"
+#    russian: "Русский"
     chinese: "中文（繁）"
     simChinese: "中文（简）"
     license: 'LICENSE'
