@@ -1,41 +1,35 @@
 {
     "public":{
-        "chainName": "Cosmos Testnet",
-        "chainId": "{Chain ID}",
+        "chainName": "BHP Testnet",
+        "chainId": "testing",
         "gtm": "{Add your Google Tag Manager ID here}",
         "slashingWindow": 10000,
         "uptimeWindow": 250,
         "initialPageSize": 30,
         "secp256k1": false,
-        "bech32PrefixAccAddr": "cosmos",
-        "bech32PrefixAccPub": "cosmospub",
-        "bech32PrefixValAddr": "cosmosvaloper",
-        "bech32PrefixValPub": "cosmosvaloperpub",
-        "bech32PrefixConsAddr": "cosmosvalcons",
-        "bech32PrefixConsPub": "cosmosvalconspub",
-        "bondDenom": "uatom",
-        "powerReduction": 1000000,
+        "bech32PrefixAccAddr": "bhp",
+        "bech32PrefixAccPub": "bhppub",
+        "bech32PrefixValAddr": "bhpvaloper",
+        "bech32PrefixValPub": "bhpvaloperpub",
+        "bech32PrefixConsAddr": "bhpvalcons",
+        "bech32PrefixConsPub": "bhpvalconspub",
+        "bondDenom": "abhp",
+        "powerReduction": 100000000,
         "coins": [
             {
-                "denom": "uatom",
-                "displayName": "ATOM",
-                "displayNamePlural": "ATOMS",
-                "fraction": 1000000
-            }, 
-            {
-                "denom": "umuon",
-                "displayName": "MUON",
-                "displayNamePlural": "MUONS",
-                "fraction": 1000000
-            } 
+                "denom": "abhp",
+                "displayName": "BHP",
+                "displayNamePlural": "BHPs",
+                "fraction": 100000000
+            }
         ],
-        "gasPrice": 0.02,
-        "coingeckoId": "cosmos"
+        "gasPrice": 0.0001,
+        "coingeckoId": "bhp"
     },
-    "genesisFile": "{Replace the address of the genesis file of the chain}",
+    "genesisFile": "https://rpc.bhpnet.io:26657/genesis",
     "remote":{
-        "rpc":"https://gaia-seeds.interblock.io",
-        "lcd":"https://gaia-seeds.interblock.io:1317"
+        "rpc":"https://rpc.bhpnet.io:26657",
+        "lcd":"https://rpc.bhpnet.io:26690"
     },
     "debug": {
         "startTimer": true,
@@ -53,5 +47,3 @@
         "delegationInterval": 900000
     }
 }
-
-
