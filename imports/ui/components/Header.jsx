@@ -162,7 +162,9 @@ export default class Header extends Component {
         let signedInAddress = getUser();
         return (
             <Navbar color="primary" dark expand="lg" fixed="top" id="header">
-                <NavbarBrand tag={Link} to="/"> <img src="/img/bhp-icon.png" className="img-fluid logo"/>&nbsp; <span className="d-none d-xl-inline-block"><T>navbar.siteName</T>&nbsp;</span><Badge
+                {/*<NavbarBrand tag={Link} to="/"> <img src="/img/bhp-icon.png" className="img-fluid logo"/>&nbsp; <span className="d-none d-xl-inline-block"><T>navbar.siteName</T>&nbsp;</span><Badge*/}
+                {/*    color="secondary"><T>navbar.version</T></Badge> </NavbarBrand>*/}
+                <NavbarBrand tag={Link} to="/"> <img src="/img/bhp-icon.png" className="img-fluid logo"/>&nbsp; <Badge
                     color="secondary"><T>navbar.version</T></Badge> </NavbarBrand>
                 <UncontrolledDropdown className="d-inline text-nowrap">
                     <DropdownToggle caret={(this.state.networks !== "")} tag="span" size="sm"
